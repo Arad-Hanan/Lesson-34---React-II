@@ -1,5 +1,6 @@
 .book-details {
     background-color: var(--clr2bg-light);
+    color: var(--gray3);
     border: 1px solid var(--clr1bg);
     border-radius: 6px;
     padding: 1em 1.5em;
@@ -13,12 +14,18 @@
 }
 
 .book-details h4 {
-    color: var(--gray2);
+    color: var(--clr1);
     font-weight: normal;
 }
 
+.book-details .price {
+    color: var(--clr-price);
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
 .book-details .price.expensive {
-    color: var(--clr-sale);
+    color: var(--clr-expensive);
 }
 
 .book-details .price.cheap {

@@ -1,5 +1,6 @@
 .book-filter {
     background-color: var(--clr2bg-light);
+    color: var(--gray3);
     border: 1px solid var(--clr1bg);
     border-radius: 6px;
     padding: 1em;

@@ -8,6 +8,7 @@
 
 .book-list > li {
     background-color: var(--clr2bg-light);
+    color: var(--gray3);
     border: 1px solid var(--clr1bg);
     border-radius: 6px;
     padding: 1em;
@@ -28,7 +29,9 @@
 }
 
 .book-preview .price {
+    color: var(--clr-price);
     font-weight: bold;
+    font-size: 1.1em;
 }
 
 .book-preview .sale-badge {
@@ -47,5 +50,5 @@
 
 .no-books {
     font-style: italic;
-    color: var(--gray2);
+    color: var(--clr1);
 }

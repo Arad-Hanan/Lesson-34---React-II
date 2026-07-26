@@ -3,7 +3,13 @@
 }
 
 html {
-    color-scheme: light dark;
+    /* light only - the app's surfaces are light, dark mode turned the text white */
+    color-scheme: light;
+}
+
+body {
+    background-color: white;
+    color: var(--gray3);
 }
 
 @media (prefers-reduced-motion: no-preference) {

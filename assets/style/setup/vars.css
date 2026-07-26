@@ -13,6 +13,8 @@
   --gray2: rgb(155, 155, 155);
   --gray3: rgb(44, 44, 44);
 
-  --clr-sale: rgb(214, 64, 64);
-  --clr-cheap: rgb(46, 139, 87);
+  --clr-sale: rgb(178, 34, 34);
+  --clr-price: rgb(61, 40, 28);
+  --clr-expensive: rgb(155, 17, 30);
+  --clr-cheap: rgb(21, 105, 61);
 }
