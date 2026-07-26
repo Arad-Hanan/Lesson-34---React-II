@@ -1,0 +1,28 @@
+.book-filter {
+    background-color: var(--clr2bg-light);
+    border: 1px solid var(--clr1bg);
+    border-radius: 6px;
+    padding: 1em;
+    margin-block-end: 1em;
+}
+
+.book-filter h2 {
+    margin-block-end: .5em;
+}
+
+.book-filter form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: .5em 1em;
+    align-items: center;
+}
+
+.book-filter input[type="checkbox"] {
+    justify-self: start;
+}
+
+.book-filter button {
+    grid-column: 1 / -1;
+    justify-self: start;
+    margin-inline-start: 0;
+}

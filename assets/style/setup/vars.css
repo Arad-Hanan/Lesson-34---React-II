@@ -1,14 +1,18 @@
 :root {
-  --clr1: rgb(96, 107, 91);
-  --clr2: rgb(120, 99, 110);
+  /* Miss Books palette - warm library tones */
+  --clr1: rgb(94, 63, 46);
+  --clr2: rgb(160, 82, 45);
 
-  --clr1bg: rgb(153, 166, 149);
-  --clr1bg-light: rgb(205, 221, 200);
+  --clr1bg: rgb(214, 190, 168);
+  --clr1bg-light: rgb(245, 233, 219);
 
-  --clr2bg: rgb(233, 206, 221);
-  --clr2bg-light: rgb(253, 236, 246);
+  --clr2bg: rgb(240, 214, 182);
+  --clr2bg-light: rgb(253, 245, 235);
 
   --gray1: rgb(240, 240, 240);
   --gray2: rgb(155, 155, 155);
   --gray3: rgb(44, 44, 44);
-} 
+
+  --clr-sale: rgb(214, 64, 64);
+  --clr-cheap: rgb(46, 139, 87);
+}

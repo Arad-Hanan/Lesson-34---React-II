@@ -1,0 +1,51 @@
+.book-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1em;
+}
+
+.book-list > li {
+    background-color: var(--clr2bg-light);
+    border: 1px solid var(--clr1bg);
+    border-radius: 6px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-preview {
+    text-align: center;
+    position: relative;
+}
+
+.book-preview img {
+    width: 100px;
+    display: block;
+    margin: .5em auto;
+}
+
+.book-preview .price {
+    font-weight: bold;
+}
+
+.book-preview .sale-badge {
+    display: inline-block;
+    background-color: var(--clr-sale);
+    color: white;
+    border-radius: 4px;
+    padding: .1em .5em;
+    font-size: .8em;
+}
+
+.book-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.no-books {
+    font-style: italic;
+    color: var(--gray2);
+}

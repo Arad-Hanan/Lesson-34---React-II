@@ -1,0 +1,38 @@
+.book-edit {
+    background-color: var(--clr2bg-light);
+    border: 1px solid var(--clr1bg);
+    border-radius: 6px;
+    padding: 1em 1.5em;
+    max-width: 600px;
+}
+
+.book-edit form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: .5em 1em;
+    align-items: center;
+}
+
+.book-edit textarea {
+    min-height: 5em;
+    resize: vertical;
+}
+
+.book-edit input[type="checkbox"] {
+    justify-self: start;
+}
+
+.book-edit .edit-actions {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.book-index .btn-add {
+    margin-inline-start: 0;
+}
+
+.loader {
+    font-style: italic;
+    color: var(--gray2);
+}
