@@ -1,20 +1,28 @@
 :root {
-  /* Miss Books palette - warm library tones */
-  --clr1: rgb(94, 63, 46);
-  --clr2: rgb(160, 82, 45);
+  /* Miss Books - warm dark library theme */
+  --clr-bg: rgb(45, 38, 33);
+  --clr-surface: rgb(62, 52, 45);
+  --clr-header: rgb(30, 25, 21);
+  --clr-border: rgb(92, 77, 65);
 
-  --clr1bg: rgb(214, 190, 168);
-  --clr1bg-light: rgb(245, 233, 219);
+  --clr-txt: rgb(238, 230, 219);
+  --clr-txt-muted: rgb(190, 174, 156);
 
-  --clr2bg: rgb(240, 214, 182);
-  --clr2bg-light: rgb(253, 245, 235);
+  --clr1: rgb(198, 160, 110);
+  --clr2: rgb(226, 190, 140);
+
+  --clr1bg: rgb(78, 66, 57);
+  --clr1bg-light: rgb(96, 81, 69);
+
+  --clr2bg: rgb(198, 160, 110);
+  --clr2bg-light: rgb(226, 190, 140);
 
   --gray1: rgb(240, 240, 240);
   --gray2: rgb(155, 155, 155);
   --gray3: rgb(44, 44, 44);
 
-  --clr-sale: rgb(178, 34, 34);
-  --clr-price: rgb(61, 40, 28);
-  --clr-expensive: rgb(155, 17, 30);
-  --clr-cheap: rgb(21, 105, 61);
+  --clr-sale: rgb(196, 66, 60);
+  --clr-price: rgb(226, 190, 140);
+  --clr-expensive: rgb(240, 130, 120);
+  --clr-cheap: rgb(126, 206, 150);
 }

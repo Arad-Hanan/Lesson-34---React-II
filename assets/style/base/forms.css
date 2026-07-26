@@ -1,6 +1,7 @@
 button {
     cursor: pointer;
     background-color: var(--clr2bg);
+    color: rgb(38, 30, 25);
     margin: 0.5em;
     border: 0;
     padding: 0.5em 0.8em;
@@ -8,12 +9,24 @@ button {
 }
 
 button:hover {
-    background-color: var(--clr2);
-    color: white;
+    background-color: var(--clr2bg-light);
     transition: 0.3s;
 }
 
-input:focus {
+input, textarea, select {
+    background-color: rgb(52, 44, 38);
+    color: var(--clr-txt);
+    border: 1px solid var(--clr-border);
+    border-radius: 4px;
+    padding: 0.3em 0.5em;
+}
+
+input:focus, textarea:focus, select:focus {
     background-color: var(--clr1bg);
-    transition: background-color 1s;
+    outline: 1px solid var(--clr1);
+    transition: background-color 0.3s;
+}
+
+::placeholder {
+    color: var(--clr-txt-muted);
 }

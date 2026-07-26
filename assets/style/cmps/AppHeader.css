@@ -1,8 +1,8 @@
 .app-header {
-    background-color: var(--clr1);
+    background-color: var(--clr-header);
     margin-block-end: 1em;
 
-    color: var(--clr2bg-light);
+    color: var(--clr-txt);
 }
 
 .header-container {
@@ -14,6 +14,7 @@
 .header-container h1 {
     flex-grow: 1;
     margin-block-end: 0;
+    color: var(--clr2);
 }
 
 .app-nav {
@@ -22,13 +23,13 @@
 }
 
 a.active {
-    color: rgb(241, 212, 241);
+    color: var(--clr2);
     text-decoration: underline;
 }
 
 
 @media (max-width: 720px) {
     .app-header {
-        color: var(--clr2bg-light);
+        color: var(--clr-txt);
     }
 }

@@ -3,13 +3,14 @@
 }
 
 html {
-    /* light only - the app's surfaces are light, dark mode turned the text white */
-    color-scheme: light;
+    /* the app is a dark theme - keep native controls dark too */
+    color-scheme: dark;
 }
 
 body {
-    background-color: white;
-    color: var(--gray3);
+    background-color: var(--clr-bg);
+    color: var(--clr-txt);
+    min-height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {

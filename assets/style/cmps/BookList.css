@@ -7,9 +7,9 @@
 }
 
 .book-list > li {
-    background-color: var(--clr2bg-light);
-    color: var(--gray3);
-    border: 1px solid var(--clr1bg);
+    background-color: var(--clr-surface);
+    color: var(--clr-txt);
+    border: 1px solid var(--clr-border);
     border-radius: 6px;
     padding: 1em;
     display: flex;
@@ -37,7 +37,7 @@
 .book-preview .sale-badge {
     display: inline-block;
     background-color: var(--clr-sale);
-    color: white;
+    color: var(--clr-txt);
     border-radius: 4px;
     padding: .1em .5em;
     font-size: .8em;
@@ -50,5 +50,5 @@
 
 .no-books {
     font-style: italic;
-    color: var(--clr1);
+    color: var(--clr-txt-muted);
 }
